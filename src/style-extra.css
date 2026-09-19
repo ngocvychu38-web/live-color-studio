@@ -1,0 +1,8 @@
+.camera-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1;transform:scaleX(-1)}
+.camera-placeholder{z-index:0}.speech-bubble{z-index:3}.stage-label{z-index:4}
+.hair-tint{position:absolute;z-index:2;top:5%;left:28%;width:44%;height:37%;border-radius:50%;opacity:0;pointer-events:none;mix-blend-mode:color;filter:saturate(1.35)}
+.hair-red .hair-tint{opacity:.78;background:radial-gradient(ellipse at center,#c4574b 0 44%,transparent 72%)}.hair-blue .hair-tint{opacity:.78;background:radial-gradient(ellipse at center,#597a9b 0 44%,transparent 72%)}.hair-purple .hair-tint{opacity:.78;background:radial-gradient(ellipse at center,#826a9b 0 44%,transparent 72%)}
+.speech-bubble{z-index:5}.stage-label{z-index:6}
+.stage canvas{position:absolute!important;inset:0;width:100%!important;height:100%!important;object-fit:cover;z-index:1;transform:scaleX(-1)}
+.stage:has(canvas) .camera-video,.stage:has(canvas) .hair-tint{display:none}
+.custom-color{margin-top:14px;padding-top:14px;border-top:1px solid #30413d}.custom-color label{display:flex;align-items:center;justify-content:space-between;color:#a9bab3;font-size:12px;margin:9px 0}.custom-color input[type=color]{width:48px;height:30px;border:1px solid #40514c;background:transparent;padding:2px}.custom-color input[type=range]{width:145px}.hex-input{width:100%;background:#101918;border:1px solid #344843;color:#d8e2dc;padding:8px;border-radius:3px;font:12px 'DM Mono'}
